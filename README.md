@@ -33,7 +33,10 @@
 
 不要提交未公开的业务源码。贡献说明见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
-安全问题请发邮件至 **buquesec@163.com**，不要开公开 Issue。
+## 联系
+
+- **问题反馈或商务合作**微信号：`ChinaSafe_Forever`
+- 未修复的安全漏洞请发邮件至 **buquesec@163.com**，不要开公开 Issue。
 
 ## 许可证
 
