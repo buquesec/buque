@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+target/
+*.egg-info/
+.next/
+out/
+*.tsbuildinfo
+
+release/
+
+# Local data / uploads
+data/
+uploads/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Secrets and license files
+*.pem
+*.key
+*.lic
+credentials.json
+secrets/
+
+# Generated / binary dumps not part of the product
+*.xlsx
+*.pdf
+!docs/**/*.xlsx
+!docs/**/*.pdf
+
+# Cursor / local IDE
+.cursor/
+.cursor-tutor/
+
+# Test & coverage
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
