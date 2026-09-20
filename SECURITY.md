@@ -2,7 +2,7 @@
 
 请**不要**在公开 Issue 里报告未修复的安全漏洞。
 
-请发邮件至 **buquesec@163.com**。若同时使用 GitHub，可通过 Private Vulnerability Advisory 提交。Gitee 公开仓请不要开 Issue 报未修复漏洞。
+请发邮件至 **buquesec＠163.com**。若同时使用 GitHub，可通过 Private Vulnerability Advisory 提交。Gitee 公开仓请不要开 Issue 报未修复漏洞。
 
 产品使用问题或商务合作，请加微信 **ChinaSafe_Forever**（不要把未公开的漏洞细节发到群或朋友圈）。
 
