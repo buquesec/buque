@@ -2,6 +2,8 @@
 
 公开仓：https://gitee.com/sea-vessels/main
 
+**漏洞有账，处置有单。**
+
 **补阙**是漏洞管理平台，把扫描、录入、监管通报汇成一本账，按工单走完处置。完整功能请下载 **发行版安装包**（Docker 起库和应用），不要指望从本仓库 `mvn package`。
 
 本仓库只公开**部分源码**（许可证、说明书、扫描工具 Adapter 接口等）。源码公开、禁止转售，**不是** OSI 开源。见 [LICENSE](./LICENSE)（Apache-2.0 + Commons Clause）。
