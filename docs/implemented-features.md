@@ -61,7 +61,7 @@
 
 | 菜单 | 路径 | 做什么 |
 |------|------|--------|
-| 任务列表 | `/discovery/tasks` | 创建/执行扫描任务（如 SonarQube）；详情含入库统计、门禁结果、待跟踪、基线/白名单/**监管命中**、本次发现、同步作业 |
+| 任务列表 | `/discovery/tasks` | 创建/执行扫描任务。SonarQube 按仓库扫描；Dependency-Track 按系统模块和模块版本上传 SBOM（CycloneDX、带版本的 pom.xml、SPDX JSON）后拉取 SCA 漏洞。详情含入库统计、门禁结果、待跟踪、基线/白名单/**监管命中**、本次发现、同步作业 |
 | 扫描对比 | `/discovery/compare` | 两次扫描结果对比 |
 | 任务门禁 | `/discovery/gate` | 门禁策略（可多条）；任务结束后按策略判定通过/不通过 |
 
@@ -115,7 +115,7 @@
 
 | 菜单 | 路径 | 做什么 |
 |------|------|--------|
-| 工具实例 | `/discovery/tools` | 扫描工具连接（演示以 SonarQube 为主） |
+| 工具实例 | `/discovery/tools` | 扫描工具连接。SonarQube 配仓库与 Token；Dependency-Track 配 Base URL 与 API Key，按「模块名称（模块编码）」加模块版本同步 |
 | 清洗映射配置 | `/discovery/cleansing` | 工具字段映射到平台字段 |
 
 ### 流程 / 审计
